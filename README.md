@@ -1,8 +1,8 @@
-# meta-ros-performance
+# wr-ros-demo
 
 ## Summary
 
-meta-ros-performance provides recipes for building ROS 2 nodes for performance testing, including realtime performance testing.
+wr-ros-demo provides recipes for building ROS 2 nodes for performance testing, including realtime performance testing.
 
 ## Dependencies
 
