@@ -12,7 +12,7 @@ PACKAGES = "${PN}"
 SRCREV = "8aef3d6eadbf35e5e57ee724463f68c02b3037cc"
 #PV = "1.1+gitr${SRCPV}"
 
-SRC_URI = "git://github.com/ros2/realtime_support.git;branch=crystal"
+SRC_URI = "git://github.com/ros2/realtime_support.git;branch=${ROS_DISTRO}"
 SRC_URI[md5sum] = "71e9e0b609dfa6720b58df52f090e328"
 
 # Currently informational only -- see http://www.ros.org/reps/rep-0149.html#dependency-tags.
