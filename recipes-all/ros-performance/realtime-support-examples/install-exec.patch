@@ -1,0 +1,15 @@
+
+diff --git a/home/bengelma/Downloads/examples-rt/CMakeLists1.txt b/home/bengelma/Downloads/examples-rt/CMakeLists2.txt
+index fbc765a..bf17315 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -8,4 +8,9 @@ link_directories(${rttest_LIBRARY_DIR})
+ include_directories(${rttest_INCLUDE_DIRS})
+ 
+ add_executable(example_loop example_loop.c)
++
++
++
+ target_link_libraries(example_loop ${rttest_LIBRARIES})
++
++install(TARGETS example_loop DESTINATION bin)
